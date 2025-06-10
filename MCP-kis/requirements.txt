@@ -2,3 +2,5 @@ requests
 pyyaml
 pycryptodome
 pandas
+fastapi
+uvicorn[standard]
