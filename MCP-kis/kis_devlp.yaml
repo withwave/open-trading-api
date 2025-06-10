@@ -1,0 +1,29 @@
+trading_mode: "mock"  # "real" or "mock"
+
+#홈페이지에서 API서비스 신청시 받은 Appkey, Appsecret 값 설정
+#실전투자
+my_app: "실전투자용 앱키"
+my_sec: "실전투자용 앱시크리트"
+#모의투자
+paper_app: "모의투자용 앱키"
+paper_sec: "모의투자용 앱시크리트"
+
+#계좌번호 앞 8자리
+my_acct: "계좌번호 8자리" # This might be unused if specific ones below are used
+my_acct_stock: "실전투자 증권계좌 8자리"
+my_acct_future: "실전투자 선물옵션계좌 8자리"
+my_paper_stock: "모의투자 증권계좌 8자리"
+my_paper_future: "모의투자 선물옵션계좌 8자리"
+
+#계좌번호 뒤 2자리
+my_prod: "01" # Default product code, can be overridden
+
+#실전투자 API URL
+prod: "https://openapi.koreainvestment.com:9443"
+#모의투자 API URL
+vps: "https://openapivts.koreainvestment.com:29443"
+
+#디스코드 웹훅 URL
+DISCORD_WEBHOOK_URL: ""
+
+my_agent : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
